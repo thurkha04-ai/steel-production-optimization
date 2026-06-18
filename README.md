@@ -2,8 +2,6 @@
 
 This project implements a linear optimization model using Gurobi to determine the most profitable production plan for two steel alloys (A and B) using a set of raw metal inputs.
 
-## Problem Overview
-
 The model decides:
 - How much of each alloy (A and B) to produce
 - How much of each raw metal to use in each alloy
@@ -27,13 +25,7 @@ Profit = Revenue from alloys − Cost of raw metals
 ### Objective
 Maximize total profit from selling alloys minus raw material costs.
 
-## Requirements
-
-- Python 3.x
-- Gurobi Optimizer
-- gurobipy package
-
-## How to Run
+## To Run
 
 ```bash
 python steelproduction.py
